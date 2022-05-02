@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-      <NavLink className="navbar-brand" to='/' >Party club</NavLink>
+      <NavLink className="navbar-brand" to='/' >Party guess</NavLink>
 
       <div className="navbar-collapse collapse">
         <ul className="navbar-nav mx-auto">

@@ -5,11 +5,11 @@ import Broj from '../components/Broj';
 
 export default function Party({ pokusaji, dodajPokusaj }) {
   const [ulog, setUlog] = useState(0);
-  const [boja, setBoja] = useState('black');
+  const [boja, setBoja] = useState('red');
   const [dobitak, setDobitak] = useState(undefined);
   return (
     <div className='container mt-3'>
-      <h2>Broj ljudi na poslednjim zurkama</h2>
+      <h2>Broj ljudi na poslednjim zurkama i koliko su bile dobre</h2>
       <div className='row d-flex  align-items-center border'>
         {
           pokusaji.map((element, index) => {

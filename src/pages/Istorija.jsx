@@ -21,12 +21,12 @@ export default function Istorija({ pokusaji }) {
   const sorted = Object.keys(parsed).sort((a, b) => { return parsed[a] - parsed[b] })
   return (
     <div className='container mt-2'>
-      <StatistikaItem naziv='Ukupan broj pogadjanja' vrednost={pokusaji.length} />
-      <StatistikaItem naziv='Ukupno dobrih zurki' vrednost={ukupnoZelena} />
-      <StatistikaItem naziv='Ukupno losih zurki' vrednost={ukupnoCrvena} />
-      <StatistikaItem naziv='Ukupan ulog' vrednost={ukupanUlog} />
-      <StatistikaItem naziv='Ukupan broj poena' vrednost={ukupanDobitak} />
-      <StatistikaItem naziv='Najcesci broj ljudi na zurci' vrednost={sorted[sorted.length - 1]} />
+      <IstorijaItem naziv='Ukupan broj pogadjanja' vrednost={pokusaji.length} />
+      <IstorijaItem naziv='Ukupno dobrih zurki' vrednost={ukupnoZelena} />
+      <IstorijaItem naziv='Ukupno losih zurki' vrednost={ukupnoCrvena} />
+      <IstorijaItem naziv='Ukupan ulog' vrednost={ukupanUlog} />
+      <IstorijaItem naziv='Ukupan broj poena' vrednost={ukupanDobitak} />
+      <IstorijaItem naziv='Najcesci broj ljudi na zurci' vrednost={sorted[sorted.length - 1]} />
      
     </div>
   );

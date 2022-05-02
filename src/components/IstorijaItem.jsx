@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function StatistikaItem({ naziv, vrednost }) {
+export default function IstorijaItem({ naziv, vrednost }) {
   return (
     <div className='d-flex justify-content-between align-items-center border'>
       <div className='display-4'>

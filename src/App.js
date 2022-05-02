@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Party from './pages/Party';
 import Istorija from './pages/Istorija';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pokusaji, setPokusaji] = useState([]);
