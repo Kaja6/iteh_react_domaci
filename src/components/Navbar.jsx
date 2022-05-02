@@ -12,7 +12,7 @@ export default function Navbar() {
             <NavLink to='/' className='nav-link'>Pogadjaj</NavLink>
           </li>
           <li className="nav-item mx-auto">
-            <NavLink to='/statistika' className='nav-link'>Istorija</NavLink>
+            <NavLink to='/istorija' className='nav-link'>Istorija</NavLink>
           </li>
         </ul>
       </div>
